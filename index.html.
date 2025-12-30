@@ -1,0 +1,99 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zeenat Fabric | Premium Ladies Suits</title>  <!-- Google Font -->  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+
+    body{
+      background:#0f0f0f;
+      color:#fff;
+    }
+
+    :root{
+      --gold:#d4af37;
+      --dark:#121212;
+      --card:#1b1b1b;
+    }
+
+    /* HEADER */
+    header{
+      background:linear-gradient(90deg,#000,#1a1a1a);
+      padding:20px 10%;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      border-bottom:1px solid var(--gold);
+    }
+
+    header h1{
+      color:var(--gold);
+      font-weight:700;
+      letter-spacing:1px;
+    }
+
+    nav a{
+      color:#fff;
+      margin-left:25px;
+      text-decoration:none;
+      font-weight:500;
+    }
+
+    nav a:hover{color:var(--gold)}
+
+    /* HERO */
+    .hero{
+      height:90vh;
+      background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.8)),url('https://images.unsplash.com/photo-1618354691373-1f2a1c5b6f9c') center/cover;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      padding:0 10%;
+    }
+
+    .hero h2{
+      font-size:48px;
+      color:var(--gold);
+    }
+
+    .hero p{
+      margin:20px 0;
+      font-size:18px;
+      color:#ddd;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:12px 30px;
+      border:2px solid var(--gold);
+      color:var(--gold);
+      text-decoration:none;
+      font-weight:600;
+      transition:.3s;
+    }
+
+    .btn:hover{
+      background:var(--gold);
+      color:#000;
+    }
+
+    /* PRODUCTS */
+    section{
+      padding:80px 10%;
+    }
+
+    .title{
+      text-align:center;
+      margin-bottom:50px;
+    }
+
+    .title h2{
+      color:var(--gold);
+      font-size:36px;
+    }
+
+    .products{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap
